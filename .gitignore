@@ -1,0 +1,50 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ---------- Data (large / may be private) ----------
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+# keep a small sample file if you want one in the repo:
+# !data/sample.csv
+
+# ---------- Trained models ----------
+*.pkl
+*.joblib
+*.sav
+# To commit the final model for the Streamlit app, uncomment:
+# !streamlit_app/best_solar_model.pkl
+
+# ---------- Streamlit ----------
+.streamlit/secrets.toml
+
+# ---------- Secrets ----------
+.env
+*.key
+
+# ---------- Logs and tool caches ----------
+*.log
+.cache/
+catboost_info/
+lightning_logs/
+
+# ---------- IDE / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
