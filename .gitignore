@@ -24,7 +24,6 @@ data/
 # !data/sample.csv
 
 # ---------- Trained models ----------
-*.pkl
 *.joblib
 *.sav
 # To commit the final model for the Streamlit app, uncomment:
